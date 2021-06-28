@@ -1,0 +1,16 @@
+@media (max-width: 650px) {
+    .contact-heading {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-form {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .left-block {
+        margin-right: 0;
+        margin-bottom: 16px;
+        max-width: 350px;
+        width: 100%;;
+    }
+}

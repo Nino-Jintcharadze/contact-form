@@ -13,4 +13,11 @@
         max-width: 350px;
         width: 100%;;
     }
+    .icons-container {
+        flex-direction: column;
+    }
+    .icon-div:nth-child(1),
+    .icon-div:nth-child(2) {
+        margin-bottom: 15px;
+    }
 }

@@ -40,7 +40,6 @@ h2 {
 }
 .textarea{
     height: 288px;
-    padding-left: 20px;
     padding-top: 20px;
 }
 .textarea,
@@ -50,6 +49,7 @@ h2 {
     font-size: 13px;
     background-color: #F8F8F8;
     border: 2px solid #E8E8E8;
+    padding-left: 20px;
 }
 .right-block {
     max-width: 352px;
@@ -71,4 +71,41 @@ h2 {
 .textarea::placeholder,
 .input::placeholder {
     color: #CECECE;;
+}
+.textarea:focus,
+.input:focus {
+    outline: none;
+}
+
+/* icons */
+.icons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.icon {
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    background-color: #5863F8;
+    padding: 20px;
+}
+.icon-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4 {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: bolder;
+}
+.icon-div p {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: #B1B1B1;
+    margin-top: 5px;
 }

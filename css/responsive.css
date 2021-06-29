@@ -1,5 +1,27 @@
+@media (max-width: 1075px) {
+    .img-wraper:nth-child(3) {
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-section2 {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 725px) {
+    .img-wraper:nth-child(1) {
+        margin-bottom: 15px;
+    }
+    .heading2-width {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-text {
+        display: none;
+    }
+}
 @media (max-width: 650px) {
-    .contact-heading {
+    .heading1-width {
         margin-left: auto;
         margin-right: auto;
     }
@@ -19,5 +41,11 @@
     .icon-div:nth-child(1),
     .icon-div:nth-child(2) {
         margin-bottom: 15px;
+    }
+    .contact {
+        display: none;
+    }
+    .footer-main {
+        justify-content: space-around;
     }
 }
